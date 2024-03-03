@@ -10,6 +10,10 @@
 </template>
 
 <script setup>
+// เปลี่ยน layout
+definePageMeta({
+    layout: 'products'
+}),
 useHead({
   title: 'MusShop | สินค้าทั้งหมด',
 })
